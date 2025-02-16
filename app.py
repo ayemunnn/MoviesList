@@ -15,8 +15,8 @@ def authenticate(username, password):
     if username in USER_CREDENTIALS and USER_CREDENTIALS[username] == password:
         return True
     return False
-st.title('Movie Watchlist for Kannu Ji')
-st.info("Hey, I hope you will like it! - Yours Truly, Chor")
+st.title('Movie Watchlist')
+st.info("Hey, I hope you will like it!")
 
 # Load the locally stored CSV file
 movies_data = pd.read_csv('Movie.csv')
